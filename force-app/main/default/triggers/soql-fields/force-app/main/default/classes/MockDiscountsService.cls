@@ -1,4 +1,4 @@
-@isTest
+@isTest 
 global class MockDiscountsService implements StubProvider {
    public Static Date OpportunityDate = date.newInstance(2022, 02, 25); //'Date2022-02-25 00:00:00';
    Integer amount;

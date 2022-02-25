@@ -1,5 +1,5 @@
 public class OpportunitiesServiseDate {
-DiscountsService ds;
+DiscountsService ds; 
     
    public OpportunitiesServiseDate(DiscountsService ds){
       this.ds = ds;

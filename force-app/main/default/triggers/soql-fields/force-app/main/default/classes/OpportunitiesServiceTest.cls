@@ -8,7 +8,7 @@ public class OpportunitiesServiceTest {
    private static void discountShouldBeTen(){
        System.assertEquals(10, createOpportunity(15).Discounts__c);
    }
-   @isTest
+   @isTest 
    private static void discountShouldBeTwenty(){
        System.assertEquals(20, createOpportunity(25).Discounts__c);
    }

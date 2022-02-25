@@ -1,4 +1,4 @@
-public with sharing class DiscountsService {
+public with sharing class DiscountsService { 
     public Decimal getDiscount(Id accountId){
         Integer numClosedWon = [SELECT COUNT()
                                 FROM   Opportunity
